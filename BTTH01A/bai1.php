@@ -29,7 +29,7 @@ function divideArray($arr) {
 }
 
 // Sử dụng hàm và in kết quả
-echo "Tổng các phần tử: " . implode("+ ", $arrs)." = " . sumArray($arrs) . "<br>";
-echo "Tích các phần tử: " . implode("* ", $arrs)." = "  . productArray($arrs) . "<br>";
-echo "Hiệu các phần tử: " . implode("- ", $arrs)." = "  . subtractArray($arrs) . "<br>";
-echo "Thương các phần tử: " .implode("/", $arrs)." = "  . divideArray($arrs) . "<br>";
+echo "Tổng các phần tử: " . implode("+ ", $arrs) . sumArray($arrs) . "<br>";
+echo "Tích các phần tử: " . implode("* ", $arrs) . productArray($arrs) . "<br>";
+echo "Hiệu các phần tử: " . implode("- ", $arrs) . subtractArray($arrs) . "<br>";
+echo "Thương các phần tử: " .implode("/", $arrs) . divideArray($arrs) . "<br>";
